@@ -15,14 +15,18 @@
 
 
 for (let i = 1; i <= 100 ; i++){
-    console.log(i)
+    
 
-    const numberThree = 3;
-    const numberFive = 5;
-
-    const divisibleNumber = i / numberThree;
-
-    if ( divisibleNumber) {
-        console.log( divisibleNumber )
+    if( i % 3 && i % 5 == 0){
+        console.log ('FizzBuzz');
+    }
+    else if( i % 3 == 0){
+        console.log ('Fizz');
+    }
+    else if( i % 7 == 0){
+        console.log ('Buzz');
+    }
+    else if (i){
+        console.log(i)
     }
 }
