@@ -15,6 +15,14 @@
 
 
 for (let i = 1; i <= 100 ; i++){
-    // console.log(i)
-    
+    console.log(i)
+
+    const numberThree = 3;
+    const numberFive = 5;
+
+    const divisibleNumber = i / numberThree;
+
+    if ( divisibleNumber) {
+        console.log( divisibleNumber )
+    }
 }
